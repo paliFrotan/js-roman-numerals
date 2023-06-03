@@ -1,3 +1,4 @@
 export const romanNumerals = (parameter) => {
-    return "Hello" +parameter;
+    if (parameter === undefined) throw new Error('Roman Numeral is required');
+    return "I";
 }
